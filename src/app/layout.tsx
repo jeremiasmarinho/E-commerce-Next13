@@ -23,7 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Hydrate>
             <NavBar />
-            <main className="bg-slate-700  h-screen p-16">{children}</main>
+            <main className="bg-slate-700 p-16 h-full">{children}</main>
           </Hydrate>
         </body>
       </html>
